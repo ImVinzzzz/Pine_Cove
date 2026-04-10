@@ -1598,3 +1598,56 @@ footer {
 .nota-autore i { color: var(--gold); font-size: 1rem; margin-top: .2rem; flex-shrink: 0; }
 .nota-autore p { font-size: .92rem; color: var(--ink-mid); margin: 0; font-style: italic; }
 .nota-autore strong { color: var(--gold); }
+
+/* ============================================================
+   EPISODE ROW — Stato "Prossimamente"
+   ============================================================ */
+.episode-row.coming-soon {
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--cream-dark),
+    var(--cream-dark) 6px,
+    var(--cream) 6px,
+    var(--cream) 14px
+  );
+  border-color: var(--cream-deeper);
+  cursor: default;
+  pointer-events: none;
+  opacity: .75;
+}
+
+.episode-row.coming-soon:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--cream-deeper);
+}
+
+.episode-row.coming-soon::before {
+  display: none;
+}
+
+.episode-row.coming-soon .episode-num {
+  background: var(--mist);
+  border-color: transparent;
+}
+
+.episode-row.coming-soon .episode-num span:last-child {
+  color: var(--white);
+}
+
+.episode-row.coming-soon .episode-icon {
+  background: var(--cream-dark);
+  color: var(--mist);
+  border-color: var(--cream-deeper);
+}
+
+.episode-row.coming-soon h3,
+.episode-row.coming-soon p {
+  color: var(--ink-light);
+}
+
+.episode-badge.soon {
+  background: transparent;
+  color: var(--mist);
+  border: 1px dashed var(--mist);
+}
