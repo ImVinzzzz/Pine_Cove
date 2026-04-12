@@ -4,7 +4,7 @@
 
 (function () {
   const pages = [
-    { href: 'index.html',         icon: 'fa-solid fa-house',            label: ' ' },
+    { href: 'index.html',         icon: 'fa-solid fa-house',            label: '&nbsp;' },
     { href: 'autore.html',        icon: 'fa-solid fa-book-open',        label: 'L&apos;Autore' },
     { href: 'giocatore.html',     icon: 'fa-solid fa-book-open',        label: 'Guida Giocatore' },
     { href: 'ambientazione.html', icon: 'fa-solid fa-map-location-dot', label: 'Pine Cove' },
