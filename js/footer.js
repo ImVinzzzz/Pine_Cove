@@ -17,6 +17,7 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="autore.html">Manuale dell'Autore</a></li>
+            <li><a href="giocatore.html">Guida del Giocatore</a></li>
             <li><a href="ambientazione.html">Pine Cove</a></li>
             <li><a href="personaggi.html">Personaggi</a></li>
             <li><a href="episodi.html">Episodi</a></li>
