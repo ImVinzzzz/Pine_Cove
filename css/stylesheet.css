@@ -906,7 +906,7 @@ p + p { margin-top: .85em; }
 /* NPC Archive cards */
 .archive-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   gap: 2rem;
   margin-top: 2.5rem;
 }
