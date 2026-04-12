@@ -4,11 +4,12 @@
 
 (function () {
   const pages = [
-    { href: 'index.html',         icon: 'fa-solid fa-house',           label: 'Home' },
-    { href: 'autore.html',        icon: 'fa-solid fa-book-open',       label: 'Manuale' },
-    { href: 'ambientazione.html', icon: 'fa-solid fa-map-location-dot',label: 'Pine Cove' },
-    { href: 'personaggi.html',    icon: 'fa-solid fa-users',           label: 'Personaggi' },
-    { href: 'episodi.html',       icon: 'fa-solid fa-clapperboard',    label: 'Episodi' },
+    { href: 'index.html',         icon: 'fa-solid fa-paper-plane',      label: '' },
+    { href: 'autore.html',        icon: 'fa-solid fa-book-open',        label: 'Manuale Autore' },
+    { href: 'giocatore.html',     icon: 'fa-solid fa-book-open',        label: 'Guida Giocatore' },
+    { href: 'ambientazione.html', icon: 'fa-solid fa-map-location-dot', label: 'Pine Cove' },
+    { href: 'personaggi.html',    icon: 'fa-solid fa-users',            label: 'Personaggi' },
+    { href: 'episodi.html',       icon: 'fa-solid fa-clapperboard',     label: 'Episodi' },
   ];
 
   // Determine active page
